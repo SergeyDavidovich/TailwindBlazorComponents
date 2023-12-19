@@ -1,0 +1,12 @@
+﻿.MyCardClass {
+    background-color: #f00;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 8px;
+}
+
+.MyFontClass {
+    font-size: 4em;
+    color: white;
+}

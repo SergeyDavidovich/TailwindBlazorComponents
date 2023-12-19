@@ -1,0 +1,16 @@
+﻿    <div class="@TailwindClass">
+        <div class="@TailwindClass">@Header </div>
+        <div class="@TailwindClass">@Content </div>
+        <div class="@TailwindClass">@Footer </div>
+    </div>
+@code
+{
+    [Parameter] public string? Header { get; set; }
+    [Parameter] public string? Content { get; set; }
+    [Parameter] public string? Footer { get; set; }
+    [Parameter] public string? TailwindClass { get; set; }
+}
+
+<style>
+   
+</style>
